@@ -1,0 +1,31 @@
+.container {
+    color: rgb(168, 175, 175);
+    background-color: rgba(108, 84, 92, 0.821);
+    padding: 8px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+.container .foto {
+    border-radius: 20px;
+    transition: filter 1s;
+    filter: brightness(0.6);
+}
+
+
+.container:hover {
+    box-shadow: 0 0 0.5rem #befeff, 0 0 2rem #befeff, 0 0 5rem #befeff;
+    transition: 1s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.759);
+    color:  rgb(77, 14, 31);
+}
+
+.container:hover .foto:hover {
+    filter: brightness(1);
+}
+

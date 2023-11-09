@@ -1,0 +1,10 @@
+._containerFav {
+    color: rgb(168, 175, 175);
+    background-color: rgb(16, 23, 114);
+    padding: 8px;
+    margin: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

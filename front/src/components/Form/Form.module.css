@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.container1 {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-image: url(https://cdn.wallpapersafari.com/68/41/qrbvHR.jpg);
+    /* background-image: url(https://w.forfun.com/fetch/c9/c90935e8a9f9e1831d3605d485dbd0a5.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-color: #c21428ec;
+    height: 72vh;
+
+
+}
+
+.imgLogin {
+    height: auto;
+    width: 200px;
+}
+
+.label {
+    color: rgb(229, 227, 227);
+    background-color: black;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+}
+
+.submit {
+    font-family: 'Share Tech Mono', monospace;
+    color: azure;
+    background-color: #000000;
+}
+
+.submit:hover {
+    transition: 0.5s;
+    background-color: #93D4AD;
+    border: solid #93D4AD 2px;
+    color: black;
+    box-shadow: 0 0 0.5rem #befeff, 0 0 5rem #befeff, 0 0 5rem #befeff;
+}

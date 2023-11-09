@@ -1,0 +1,14 @@
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+}
+
+.image {
+    height: auto;
+    width: 30vw;
+    display: inline;
+    border-radius: 20px;
+}
