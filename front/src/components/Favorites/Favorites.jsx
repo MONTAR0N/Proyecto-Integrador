@@ -22,17 +22,20 @@ const Favorites = () => {
     //RENDER
     return (
         <div>
-        <div>
+        <div className={styles.selectContainer}>
 
             <select name="order" 
             onChange={handleChange} 
-            id="order">
+            id="order"
+            className={styles.select}
+            >
                 <option value="A">Ascendent</option>
                 <option value="D">Descendent</option>
             </select>
             <select name="filter"
             id="filter" 
             onChange={handleChange} 
+            className={styles.select}
             >
                 <option value="ALL">All</option>
                 <option value="Male">Male</option>

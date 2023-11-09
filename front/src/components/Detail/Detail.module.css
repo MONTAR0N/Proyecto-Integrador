@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 .detailContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.505);
     color: white;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .image {
