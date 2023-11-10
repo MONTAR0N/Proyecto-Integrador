@@ -41,7 +41,7 @@ const Card = ({ id, name, image, onClose, gender }) => {
       <div className={style.container}>
          {
             isFav ? (
-               <button onClick={() => handleFavorite(isFav)} className={style.corazon}>❤️</button>
+               <button onClick={() => handleFavorite(isFav)} className={style.corazon}>💙</button>
             ) : (
                <button onClick={() => handleFavorite(isFav)} className={style.corazon}>🤍</button>
             )
